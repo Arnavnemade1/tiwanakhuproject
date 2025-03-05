@@ -1,11 +1,11 @@
 import React from 'react';
-import TiwanakuSite from './tiwanakusite';
-import './cssstyles.css';
+import { Globe } from 'lucide-react';
 
 function App() {
   return (
     <div className="App">
-      <TiwanakuSite />
+      <h1>Tiwanakhu Project</h1>
+      <Globe />
     </div>
   );
 }
