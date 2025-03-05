@@ -4,8 +4,8 @@ import { Globe } from 'lucide-react';
 function App() {
   return (
     <div className="App">
-      <h1>Tiwanakhu Project</h1>
-      <Globe />
+      <h1>Tiwanakhu Culture Project</h1>
+      <Globe size={48} />
     </div>
   );
 }
