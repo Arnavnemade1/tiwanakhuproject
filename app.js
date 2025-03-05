@@ -1,6 +1,6 @@
 import React from 'react';
-import TiwanakuSite from './TiwanakuSite';
-import './App.css';
+import TiwanakuSite from './tiwanakusite';
+import './cssstyles.css';
 
 function App() {
   return (
