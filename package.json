@@ -3,26 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -37,3 +27,33 @@
     ]
   }
 }
+```
+
+7. Create a `public` folder in your project root and put the `index.html` file there.
+
+8. Ensure your project structure looks like this:
+```
+tiwanaku-culture-site/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   ├── index.css
+│   ├── cssstyles.css
+│   ├── tiwanakusite.js
+│   ├── navbar.js
+│   ├── hero.js
+│   ├── sectioncard.js
+│   └── footer.js
+└── package.json
+```
+
+Then run:
+```bash
+npm start
+```
+
+This should resolve the "index.html not found" error and get your React app running. 
+
+Would you like me to help you populate the other files (tiwanakusite.js, navbar.js, etc.) with the code I previously provided?
